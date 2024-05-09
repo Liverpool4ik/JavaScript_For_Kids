@@ -6,6 +6,8 @@
 
 // showCats(20);
 
+//===========================================================
+
 // let score = 11;
 // score += 11;
 // document.write(score);
@@ -16,9 +18,13 @@
 // // score1 -= 11;
 // // document.write(score1);
 
+//===========================================================
+
 // let baloons = 100;
 // baloons /= 4;
 // document.write(baloons);
+
+//===========================================================
 
 /*
 // 1) first method ===>> First Symbol ==>> to UpperCase, all other symbols ==>> to lowerCase!!
@@ -62,10 +68,31 @@ let doneStingBetterMoves =
 console.log(doneStingBetterMoves + " ==>> (СТАЛО - by help of NEW MOVES)");
 */
 
+//=========================================================== ??????????????????????????????????
+
 let age = 11;
 
 let accompanied = true;
 
-let minimumAge = 12;
+//=========================================================== ??????????????????????????????????
 
-let enterZone = minimumAge + withAdultToGo;
+// [MASSIVES] arrays ==========================================================
+// methods
+
+let autoS = [4, "444", ["chevy", "Volvo", "Mazda", "Dodge"]];
+
+console.log(autoS[2][1]); // take first index[1] "Volvo", element in the second inputed array
+document.write(autoS[2]); // taken the INPUTED array in array
+
+//=========================================================== ??????????????????????????????????
+
+//==== METHODS =======================================================
+
+//==== to know array length =======================================================
+
+// array.length;
+let carssss11 = ["chevron", "lebron", "mazdon"];
+// carssss11.length; // 3
+console.log(carssss11.length - 1);
+
+//==== to add element - into the end of the Array =======================================================
